@@ -206,7 +206,7 @@ a {
 /* Sign in Start */
 #sign-in {
   background-color: var(--desaturated-blue);
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 #sign-in .row .col-1 h2 {
@@ -242,7 +242,7 @@ a {
 footer {
   background: var(--dark-blue);
   color: var(--light-gray);
-  padding: 7rem 0;
+  padding: 5rem 0;
 }
 
 footer .row {
@@ -273,7 +273,6 @@ footer .row a {
 }
 
 footer .row .col-4 i {
-  display: inline-block;
   border: 1px solid var(--light-gray);
   border-radius: 50%;
   margin: 0 10px;
