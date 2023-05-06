@@ -44,7 +44,7 @@ h4 {
 }
 
 .container {
-  margin: 0 4rem;
+  margin: 0 5rem;
 }
 
 ul {
@@ -80,7 +80,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
+  padding-top: 3rem;
 }
 
 #navbar nav ul {
@@ -100,7 +100,11 @@ a {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 5rem;
-  margin: 3rem 0;
+  padding: 5rem 0;
+}
+
+#home .row {
+  margin-bottom: 7rem;
 }
 
 #home .row h1 {
@@ -203,16 +207,17 @@ a {
 #sign-in {
   background-color: var(--desaturated-blue);
   padding: 5rem 0;
-  color: hsl(240, 75%, 98%);
 }
 
 #sign-in .row .col-1 h2 {
   font-size: 32px;
   margin-bottom: 25px;
+  color: var(--light-gray-blue);
 }
 
 #sign-in .row .col-1 p {
   margin-right: 7rem;
+  color: var(--light-gray);
 }
 
 #sign-in .row .col-2 input {
@@ -237,7 +242,7 @@ a {
 footer {
   background: var(--dark-blue);
   color: var(--light-gray);
-  padding: 5rem 0;
+  padding: 7rem 0;
 }
 
 footer .row {
@@ -245,7 +250,7 @@ footer .row {
   grid-template-columns: 2fr repeat(3, 1fr);
 }
 
-footer .row .logo-white {
+footer .logo-white {
   margin-bottom: 1rem;
 }
 
