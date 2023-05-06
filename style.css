@@ -278,6 +278,10 @@ footer .row .col-4 i {
   line-height: 2;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Footer End */
 
 /* Tablet Design */
