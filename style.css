@@ -100,7 +100,6 @@ a {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 5rem;
-
 }
 
 #home .row {
@@ -132,9 +131,8 @@ a {
 
 /* Team Start */
 #team {
-  padding: 3rem 0;
   background: url("./images/bg-curve-desktop.svg") no-repeat center center/cover;
-  padding: 5rem 0;
+  padding: 8rem 0;
 }
 
 #team .row h2 {
