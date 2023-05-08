@@ -15,21 +15,6 @@
   --light-gray-blue: hsl(240, 75%, 98%);
 }
 
-/* 
-- Very Dark Blue: hsl(243, 87%, 12%)
-- Desaturated Blue: hsl(238, 22%, 44%)
-
-### Accent
-
-- Bright Blue: hsl(224, 93%, 58%)
-- Moderate Cyan: hsl(170, 45%, 43%)
-
-### Neutral
-
-- Light Grayish Blue: hsl(240, 75%, 98%)
-- Light Gray: hsl(0, 0%, 75%)
-*/
-
 body {
   font-family: 'Open Sans', sans-serif;
   color: var(--dark-blue);
@@ -55,26 +40,6 @@ a {
   text-decoration: none;
 }
 
-.btn-primary {
-  padding: 10px 20px;
-  background-color: var(--bright-blue);
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 3px;
-  width: 150px;
-}
-
-.btn-secondary {
-  padding: 15px 20px;
-  background-color: var(--bright-blue);
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  width: 300px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
-}
-
 /* Header Start */
 #navbar {
   display: flex;
@@ -98,13 +63,11 @@ a {
 #sign-in .row {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
   column-gap: 5rem;
 }
 
 #home .row {
-  padding: 5rem 0;
-  margin-bottom: 8rem;
+  padding: 8rem 0;
 }
 
 #home .row h1 {
@@ -127,15 +90,22 @@ a {
   width: 300px;
 }
 
+#home .row .btn {
+  padding: 10px 20px;
+  background-color: var(--bright-blue);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 150px;
+}
+
 /* header end */
 
 /* Team Start */
 #team {
   background: url("./images/bg-curve-desktop.svg") no-repeat center center/cover;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 8rem 0;
 }
 
 #team .row h2 {
@@ -236,6 +206,16 @@ a {
 #sign-in .row .col-2 input::placeholder,
 #home .row input::placeholder {
   opacity: 0.5;
+}
+
+#sign-in .row .col-2 .btn {
+  padding: 15px 20px;
+  background-color: var(--bright-blue);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  width: 300px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* Sign in End */
